@@ -46,7 +46,7 @@ BotEvents = require("viber-bot").Events,
 TextMessage = require("viber-bot").Message.Text,
 express = require("express");
 const app = express();
-process.env.EXPOSE_URL = "https://72ffc6c2.ngrok.io"
+process.env.EXPOSE_URL = "https://0eefeda8.ngrok.io"
 process.env.BOT_ACCOUNT_TOKEN = "4a02484a4b67d0f0-640b07a6f0f44ff5-cd707c9f804bacae"
 if (!process.env.BOT_ACCOUNT_TOKEN) {
     console.log("Could not find bot account token key.");
